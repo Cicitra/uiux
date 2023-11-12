@@ -1,0 +1,332 @@
+header h1.title,
+header h3.desc {
+    text-align: center;
+}
+body {
+    background-color: #B0D9B1;
+    width: 100%;
+}
+a:link {
+    color: #FFFF;
+}
+a:visited {
+    color: #FFFF;
+}
+a:hover {
+    color: rebeccapurple;
+}
+a:active {
+    color: #C6B08C;
+}
+#navigation {}
+p {
+    font-size: 110%;
+    color: black;
+}
+#contents {
+    float: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #608F61;
+    font-family: sans-serif;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #C6B08C;
+}
+
+.container {
+    font-size: 100px;
+    margin-top: 170px;
+    margin-right: 180px;
+    margin-left: 15px;
+    color: #FFFF;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font: bold 40px Arial, sans-serif;
+
+}
+
+.search {
+    background-color: #FFFF;
+}
+
+.text-warna-hitam {
+    font-size: 40px;
+    margin-top: 15px;
+    margin-left: 45px;
+}
+
+.card{
+    margin-left: 60px;
+    margin-top: 15px;
+}
+
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    text-align: center;
+  }
+
+  .rating input {
+    display: none;
+  }
+
+  .rating label {
+    display: inline-block;
+    padding: 5px;
+    font-size: 24px;
+    color: orange;
+    cursor: pointer;
+  }
+
+  .rating label:hover:before,
+  .rating label:hover ~ label:before,
+  .rating input:checked ~ label:before {
+    content: "\2605";
+  }
+
+  .menu{
+    margin-top: 15px;
+    background-color: #FFFF;
+    font-size: 50px;
+    color: #608F61;
+    font: bold 40px Arial, sans-serif;
+
+}
+
+.text-warna-hitam {
+    font-size: 35px;
+    color: black;
+}
+
+.card {
+    margin-left: 70px;
+    margin-top: 50px;
+    border-radius: 15px;
+    border: none;
+}
+
+.card-body{
+    font-size: 20px;
+    background-color: #EEE0C9;
+    border-top-left-radius: 0px; 
+    border-top-right-radius: 0px; 
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px; 
+    border: none;
+}
+
+.card-favorit{
+    margin-left: 15px;
+    font-size: 38px;
+    background-color: #FFFF;
+    border-top-left-radius: 0px; 
+    border-top-right-radius: 0px; 
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 0px; 
+    border: none;
+}
+
+.card-loc {
+    color: #65878D;
+    background-color: #EEE0C9;
+    margin-top: 15px;
+    margin-left: 7%;
+    width: 400px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.username {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.email {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.password {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-profil {
+    margin-top: 70px;
+    margin-left: 10%;
+    width: 530px;
+    height: 617px;
+    background-color: #f0f0f0;
+    text-align: center;
+    position: relative;
+}
+
+.circle img{
+    margin-top: 100px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #3498db;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid #ffffff;
+}
+
+.text-warna{
+    margin-top: 380px;
+    font-size: 30px;
+    color: black;
+
+}
+
+.text-p {
+    margin-top: 10px;
+    font-size: 25px;
+    color: black;
+}
+
+.button-keluar{
+    font-size: 30px;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #B0D9B1;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    color: #FFFF;
+}
+
+.username-profil {
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 20px;
+    padding: 20px 20px;
+    border-radius: 10PX;
+    background-color: #EEE0C9;
+    text-align: left;
+}
+
+.email-profil {
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 20px;
+    padding: 20px 20px;
+    border-radius: 10PX;
+    background-color: #EEE0C9;
+    text-align: left;
+}
+
+.no-telp{
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 20px;
+    padding: 20px 20px;
+    border-radius: 10PX;
+    background-color: #EEE0C9;
+    text-align: left;
+}
+.alamat{
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 20px;
+    padding: 20px 20px;
+    border-radius: 10PX;
+    background-color: #EEE0C9;
+    text-align: left;
+}
+
+.footer {
+    .footer {
+        background: linear-gradient(rgba(53, 53, 53, .7), rgba(53, 53, 53, .7)), url(../img/footer.jpg) center center no-repeat;
+        background-size: auto;
+        background-color: #FFFF;
+    }
+    
+    .footer .btn.btn-social {
+        margin-right: 5px;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--light);
+        border: 1px solid #FFFFFF;
+        transition: .3s;
+    }
+    
+    .footer .btn.btn-social:hover {
+        color: var(--primary);
+    }
+    
+    .footer .btn.btn-link {
+        display: block;
+        margin-bottom: 5px;
+        padding: 0;
+        text-align: left;
+        color: #FFFFFF;
+        font-size: 15px;
+        font-weight: normal;
+        text-transform: capitalize;
+        transition: .3s;
+    }
+    
+    .footer .btn.btn-link::before {
+        position: relative;
+        content: "\f105";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        margin-right: 10px;
+    }
+    
+    .footer .btn.btn-link:hover {
+        color: var(--primary);
+        letter-spacing: 1px;
+        box-shadow: none;
+    }
+    
+    .footer .copyright {
+        margin-top: 0px;
+        padding: 25px;
+        font-size: 25px;
+        border-top: 1px solid rgba(256, 256, 256, .1);
+    }
+    
+    .footer .copyright a {
+        color: var(--light);
+    }
+    
+    .footer .copyright a:hover {
+        color: var(--primary);
+    }
+    
+    .btn {
+        padding: 12px 95px;
+        font-size: 22px;
+        border-radius: 7px;
+    }
+}
